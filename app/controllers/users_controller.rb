@@ -11,6 +11,8 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     #ここに注目
+    #こここここk
+    #lkpkokokoko
   end
 
   # GET /users/new
