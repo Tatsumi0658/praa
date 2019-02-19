@@ -28,11 +28,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-<<<<<<< HEAD
-        format.html { redirect_to @user, notice: '成功' }
-=======
-        format.html { redirect_to @user, notice: '失敗' }
->>>>>>> issues/#4
+        format.html { redirect_to @user, notice: '上書き' }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
