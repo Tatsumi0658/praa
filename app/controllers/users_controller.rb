@@ -10,7 +10,12 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+<<<<<<< HEAD
     
+=======
+    #ここに注目rjhapvdhcoauh oaduo
+    #vhoduxghvoa uhcou
+>>>>>>> fuga
   end
 
   # GET /users/new
@@ -24,6 +29,7 @@ class UsersController < ApplicationController
     #ここに注目hfdoauvhhoauf
     #こここにdhfぽあうvhどうあhゔぉうhゔぉうあ
     #vhadopchvoaudhoahodi
+    #h doacxuhg
   end
 
   # POST /users
