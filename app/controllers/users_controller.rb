@@ -22,6 +22,8 @@ class UsersController < ApplicationController
   # GET /users/1/edit
   def edit
     #ここに注目hfdoauvhhoauf
+    #こここにdhfぽあうvhどうあhゔぉうhゔぉうあ
+    #vhadopchvoaudhoahodi
   end
 
   # POST /users
