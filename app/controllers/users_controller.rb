@@ -10,11 +10,13 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    #ここに注目
   end
 
   # GET /users/new
   def new
     @user = User.new
+
   end
 
   # GET /users/1/edit
