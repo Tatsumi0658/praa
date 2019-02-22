@@ -38,6 +38,7 @@ class UsersController < ApplicationController
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
+        fash[:danger] = "失敗しました"
       end
     end
   end
