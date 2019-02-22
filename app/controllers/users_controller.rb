@@ -10,13 +10,12 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    
+
   end
 
   # GET /users/new
   def new
     @user = User.new
-
   end
 
   # GET /users/1/edit
@@ -35,6 +34,7 @@ class UsersController < ApplicationController
       if @user.save
         format.html { redirect_to @user, notice: '上書き' }
         format.json { render :show, status: :created, location: @user }
+        flash[:success] = "成功しました"
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
